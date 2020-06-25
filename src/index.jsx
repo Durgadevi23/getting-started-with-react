@@ -1,7 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./Router/App";
 import * as serviceWorker from "./serviceWorker";
+import "./index.css";
+
+// import App from "./react-router/App";
+import App from "./task-tracker/App";
 
 ReactDOM.render(
   <React.StrictMode>
